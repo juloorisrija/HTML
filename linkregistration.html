@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="register.js"></script>
+</head>
+<body id="r1">
+    <div id="class">
+<p id="form">Fill the form to register into the University</p>
+<form name="reg" onsubmit="return validation()" action="registrationcompleted.html" method="post">
+    <i class="output group"></i>
+    <fieldset>
+        <div class="inner-div">
+    <label>*UserName:</label>
+    <input type="text" id="name" name="name1" placeholder="Enter the name"/>
+    <span id="name-error"></span></span><br><br></div>
+    <div class="inner-div">
+    <label>*Password :</label>
+    <input type="password" id="passw" name="pw" placeholder="Enter the password"/>
+    <span id="password-error"></span><br><br>
+    </div>
+    <label>Repeat Password:</label>
+    <input type="text" id="passw1" name="pw1" placeholder="Renter the password"/><br><br>
+    <label>Date of Birth:</label>
+    <input type="date" id="Date" name="date1"/><br><br>
+    <div class="inner-div">
+    <label>Address:</label>
+    <textarea id="address" name="address1" row="4" cols="30"></textarea>
+    <span id="address-error"></span><br><br></div>
+    <div class="inner-div">
+    <label>Education qualification:</label>
+    <input type="text" id="ed" name="ed1"/>
+    <span id="edu-error"></span><br><br></div>
+    <label>Hobbies:</label>
+    <input type="text" id="hobby" name="hobby1"/><br><br>
+    <label>List of Certifications:</label>
+    <textarea id="list" name="list1" row="40" cols="30"></textarea><br><br>
+    <input type="submit" style="background-color: rgb(161, 161, 184);"value="submit">
+   </fieldset>
+</form> 
+</div>   
+</body>
+</html>

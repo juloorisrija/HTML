@@ -1,0 +1,31 @@
+body{
+    background-image: url("img/registration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:soft-light ;
+    text-align: center;
+}
+h1{
+    color: rgb(196, 184, 29);
+}
+p,a{
+    color: aliceblue;
+}
+#field{
+    width: 500px;
+}
+
+#r1{
+    background-image: url("img/registration1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:soft-light ;
+    text-align: center;
+}
+#inner-div span{
+    position: absolute;
+    bottom: 12px;
+    right:17px;
+    font-size: 14px;
+    color: red;
+}
